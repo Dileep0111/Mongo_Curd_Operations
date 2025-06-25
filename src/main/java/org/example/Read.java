@@ -32,7 +32,7 @@ public class Read {
                     Cell dataCell = curRow.getCell(j);
 
                     String hcVal = headerCell.getStringCellValue();
-                    String dcVal = "";
+                    String dcValue= "";
 
                     if(dataCell != null) {
                         switch (dataCell.getCellType()) {
